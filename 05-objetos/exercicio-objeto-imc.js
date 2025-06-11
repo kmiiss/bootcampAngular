@@ -28,13 +28,13 @@ class Pessoa {
     } else if (imc >= 18.5 && imc < 25){
         return('Você está com o peso normal.');
     } else if (imc >= 25 && imc < 30){
-        return ('Você está com com sobrepeso.');
+        return ('Você está com sobrepeso.');
     } else if (imc >= 30 && imc < 35){
-        return ('Você está com com obesidade grau I.');
+        return ('Você está com  obesidade grau I.');
     } else if(imc >= 35 && imc < 40){
-        return ('Você está com com obesidade grau II.');
+        return ('Você está com obesidade grau II.');
     } else (imc > 40); {
-        return ('Você está com com obesidade grau III.');
+        return ('Você está com obesidade grau III.');
     }
   }
 }
